@@ -1,5 +1,5 @@
 {
-  "name": "Upload workflows to Github",
+  "name": "Backup workflows to Github",
   "nodes": [
     {
       "parameters": {},
@@ -72,12 +72,12 @@
         "operation": "list",
         "owner": {
           "__rl": true,
-          "value": "https://github.com/ChetanLandge",
+          "value": "UR GITHUB URL",
           "mode": "url"
         },
         "repository": {
           "__rl": true,
-          "value": "https://github.com/ChetanLandge/n8n-workflows",
+          "value": "UR REPO URL",
           "mode": "url"
         },
         "filePath": "="
@@ -198,12 +198,12 @@
         "operation": "edit",
         "owner": {
           "__rl": true,
-          "value": "https://github.com/ChetanLandge",
+          "value": "UR GITHUB URL",
           "mode": "url"
         },
         "repository": {
           "__rl": true,
-          "value": "https://github.com/ChetanLandge/n8n-workflows",
+          "value": "UR REPO URL",
           "mode": "url"
         },
         "filePath": "={{ $binary.data.fileName }}",
@@ -232,12 +232,12 @@
         "resource": "file",
         "owner": {
           "__rl": true,
-          "value": "https://github.com/ChetanLandge",
+          "value": "UR GITHUB URL",
           "mode": "url"
         },
         "repository": {
           "__rl": true,
-          "value": "https://github.com/ChetanLandge/n8n-workflows",
+          "value": "UR REPO URL",
           "mode": "url"
         },
         "filePath": "={{ $binary.data.fileName }}",
